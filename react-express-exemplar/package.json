@@ -1,0 +1,28 @@
+{
+  "name": "react-express-exemplar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "browserify": "13.0.0",
+    "ejs": "2.4.1",
+    "express": "4.13.4",
+    "guid": "0.0.12",
+    "jquery": "2.2.0",
+    "react": "0.14.7",
+    "react-dom": "0.14.7",
+    "reactify": "1.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.11.1",
+    "gulp": "3.9.1",
+    "gulp-live-server": "0.0.29",
+    "vinyl-source-stream": "1.1.0"
+  }
+}
