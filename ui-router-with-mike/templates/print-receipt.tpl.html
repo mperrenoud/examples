@@ -1,0 +1,5 @@
+<h1>Print Receipt?</h1>
+<h2>{{vm.operation}} {{vm.operation === 'deposit' ? 'into' : 'from'}} {{vm.account}}</h2>
+
+<a ui-sref="home.dispense-money({operation: vm.operation, account: vm.account, printReceipt: 'yes'})">Yes</a>
+<a ui-sref="home.dispense-money({operation: vm.operation, account: vm.account, printReceipt: 'no'})">No</a>
